@@ -26,14 +26,11 @@ app.use(router) //falar pra aplicacao aplicar o route
 
 app.listen(process.env.PORT || 3000, ()=>{
     console.log('seerv on')
-    handleConnection
+    
 })
 
 
 
-var handleConnection = socket => {
-    console.log('usu conect')
-}
 
 
 
