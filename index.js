@@ -24,8 +24,9 @@ router.get("/contato", (req, res) => {
 app.use(router) //falar pra aplicacao aplicar o route
 
 
-app.listen(process.env.PORT || 3000, handleConnection, ()=>{
+app.listen(process.env.PORT || 3000, ()=>{
     console.log('seerv on')
+    handleConnection
 })
 
 
