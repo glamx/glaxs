@@ -15,7 +15,7 @@ router.get("/", (req, res) => {
 }) // cria a rota de url
 
 router.get("/contato.html", (req, res) => {
-    res.sendFile(path.join( __dirname + "/past/contato.html"))
+    res.sendFile(path.join( __dirname + "/past/contato.html" + "/past/dinheiro.jpg"))
 })
 
 
