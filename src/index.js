@@ -19,7 +19,7 @@ router.get("/contato.html", (req, res) => {
 })
 
 router.get("/contato.html", (req, res) => {
-    res.sendFile(path.join( __dirname + "/past/dinheiro.jpg"))
+    res.sendFile(path.join( __dirname + "/past/dinheiro"))
 })
 
 
