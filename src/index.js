@@ -10,6 +10,7 @@ var router = express.Router()
 
 
 
+
 router.get("/", (req, res) => {
     res.sendFile(path.join( __dirname + "/past/home.html"))
 }) // cria a rota de url
@@ -17,11 +18,6 @@ router.get("/", (req, res) => {
 router.get("/contato", (req, res) => {
     res.sendFile(path.join( __dirname + "/past/contato.html"))
 })
-
-router.post("/")
-
-
-
 
 
 
