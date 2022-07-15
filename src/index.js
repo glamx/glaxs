@@ -18,6 +18,7 @@ router.get("/contato", (req, res) => {
     res.sendFile(path.join( __dirname + "/past/contato.html"))
 })
 
+router.post("/")
 
 
 
