@@ -1,3 +1,5 @@
+//pegar i
+// atentder 
 async function getExternalImage(){
     var response = await fetch('https://source.unsplash.com/random')
     document.querySelector('.image')
@@ -5,6 +7,6 @@ async function getExternalImage(){
     .innerHTML = `<img src="${response.url}" >`
 }
 
-
-
 getExternalImage()
+
+
