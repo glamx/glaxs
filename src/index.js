@@ -36,7 +36,7 @@ async function getExternalImage(){
 
     var c = document.querySelector('.image')
 
-    c.innerHTML = `<img src="${response.url}" >`
+    innerHTML = `<img src="${response.url}" >`
 }
 
 
