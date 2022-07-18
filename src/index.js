@@ -6,7 +6,7 @@ var app = express();
 var path = require("path");
 var router = express.Router()
 
-
+var cors = require('cors')
 
 
 router.get("/", (req, res) => {
