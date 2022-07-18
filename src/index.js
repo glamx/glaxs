@@ -8,7 +8,9 @@ var router = express.Router()
 
 var cors = require('cors')
 
-
+app.get("/past/dinheiro.jpg.jpg", function(req, res){
+    res.console.log("sim")
+})
 router.get("/", (req, res) => {
     res.sendFile(path.join( __dirname + "/past/home.html"))
 }) // cria a rota de url
