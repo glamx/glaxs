@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+<style>
+#cen {
+    
+    width: 200px;
+    padding: 300px;
+    position: absolute;
+}
+#segs {
+    background-color: blue;
+    position: absolute;
+    width: 50px;
+    padding: 30px;
+
+}
+
+#btt {
+    position: absolute;
+
+}
+
+#btt2 {
+    position: absolute;
+}
+
+
+</style>
+</head>
+
+<body>
+    <h1>vento</h1>
+
+    <ol>
+        <ul>
+
+        </ul>
+    </ol>
+
+    <h1 style="background-color: rgb(98, 0, 255); text-align: center;">GAME</h1>
+
+    <div id="cen" style="text-align: center; background-color: red; ">
+    
+    
+</div>
+
+
+<div id="segs" ></div>
+
+<button id="btt">alto</button> <br>
+<button id="btt2">lado</button>
+
+<script>
+
+    var cen = document.getElementById('cen')
+    var seg = document.getElementById('segs')
+
+
+    var btt = document.getElementById('btt')
+    var btt2 = document.getElementById('btt2')
+
+    
+
+   btt.addEventListener('click', cc)
+
+    function cc(){
+
+    seg.style="top: 300px"
+
+    
+    }
+
+    btt2.addEventListener('click', cc2)
+
+    function cc2() {
+
+        seg.style="left: 400px"
+
+    }
+
+</script>
+
+
+
+</body>
+
+
+</html>
